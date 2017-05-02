@@ -1,0 +1,18 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "0804603b979c5a8a3a05dfe7a583c209"
+build_time: [545863015, 174753000]
+inputs:
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/CreateAccountViewController.swift": [545413296, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/MeetupTableViewController.swift": [545381012, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/ViewController.swift": [545380406, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/AppDelegate.swift": [545351926, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/InviteeLocationViewController.swift": [545862934, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/SecondViewController.swift": [545416721, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/TestViewController.swift": [545375996, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/Event.swift": [544477439, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/OwnerSuggestionsViewController.swift": [545370677, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/Users.swift": [544599421, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/InviteePicksViewController.swift": [545354192, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/DetailViewController.swift": [545358956, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/FeedTableViewCell.swift": [545363712, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/WhereAtV2/Meetup.swift": [545257354, 0]

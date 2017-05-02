@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FacebookShare/FacebookShare.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/KatiaHajjar/Documents/WhereAtV2/build/Pods.build/Debug-iphonesimulator/FacebookShare.build/unextended-module.modulemap',
+    }]
+  }]
+}

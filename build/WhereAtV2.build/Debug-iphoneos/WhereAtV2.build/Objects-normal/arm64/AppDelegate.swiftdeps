@@ -1,0 +1,1018 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C9WhereAtV211AppDelegate"
+provides-member:
+- ["C9WhereAtV211AppDelegate", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "initLocationManager"
+- "locationArray"
+- "locationFixAchieved"
+- "locationManager"
+- "locationObj"
+- "locationStatus"
+- "password"
+- "placemark"
+- "seenError"
+- "tabBarController"
+- "username"
+- "window"
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private ">"
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CLGeocoder"
+- "CLLocation"
+- "CLLocationManager"
+- "CLLocationManagerDelegate"
+- "CLPlacemark"
+- "CastingPrecedence"
+- "Error"
+- "NSArray"
+- "NSString"
+- "String"
+- "StringLiteralType"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- "UIResponder"
+- "UITabBarController"
+- "UIWindow"
+- !private "ViewController"
+- !private "Void"
+- !private "kCLLocationAccuracyBest"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["Ps9AnyObject", "CLGeocoder"]
+- !private ["Ps9AnyObject", "CLLocationManager"]
+- !private ["Ps9AnyObject", "ViewController"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "coordinate"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "desiredAccuracy"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initLocationManager"]
+- !private ["Ps9AnyObject", "kCLLocationAccuracyBest"]
+- !private ["Ps9AnyObject", "lastObject"]
+- !private ["Ps9AnyObject", "location"]
+- !private ["Ps9AnyObject", "locationArray"]
+- !private ["Ps9AnyObject", "locationFixAchieved"]
+- ["Ps9AnyObject", "locationManager"]
+- ["Ps9AnyObject", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9AnyObject", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9AnyObject", "locationObj"]
+- !private ["Ps9AnyObject", "locationServicesEnabled"]
+- !private ["Ps9AnyObject", "password"]
+- !private ["Ps9AnyObject", "placemark"]
+- !private ["Ps9AnyObject", "present"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "requestWhenInUseAuthorization"]
+- !private ["Ps9AnyObject", "reverseGeocodeLocation"]
+- !private ["Ps9AnyObject", "rootViewController"]
+- !private ["Ps9AnyObject", "seenError"]
+- !private ["Ps9AnyObject", "startUpdatingLocation"]
+- !private ["Ps9AnyObject", "stopUpdatingLocation"]
+- !private ["Ps9AnyObject", "username"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- ["C9WhereAtV211AppDelegate", "Bool"]
+- !private ["C9WhereAtV211AppDelegate", "CLGeocoder"]
+- ["C9WhereAtV211AppDelegate", "CLLocation"]
+- ["C9WhereAtV211AppDelegate", "CLLocationManager"]
+- !private ["C9WhereAtV211AppDelegate", "CLLocationManagerDelegate"]
+- ["C9WhereAtV211AppDelegate", "CLPlacemark"]
+- ["C9WhereAtV211AppDelegate", "Error"]
+- ["C9WhereAtV211AppDelegate", "NSArray"]
+- ["C9WhereAtV211AppDelegate", "NSString"]
+- ["C9WhereAtV211AppDelegate", "String"]
+- ["C9WhereAtV211AppDelegate", "UIApplication"]
+- ["C9WhereAtV211AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C9WhereAtV211AppDelegate", "UITabBarController"]
+- ["C9WhereAtV211AppDelegate", "UIWindow"]
+- !private ["C9WhereAtV211AppDelegate", "ViewController"]
+- !private ["C9WhereAtV211AppDelegate", "Void"]
+- ["C9WhereAtV211AppDelegate", "application"]
+- ["C9WhereAtV211AppDelegate", "applicationDidBecomeActive"]
+- ["C9WhereAtV211AppDelegate", "applicationDidEnterBackground"]
+- ["C9WhereAtV211AppDelegate", "applicationDidFinishLaunching"]
+- ["C9WhereAtV211AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C9WhereAtV211AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C9WhereAtV211AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C9WhereAtV211AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C9WhereAtV211AppDelegate", "applicationSignificantTimeChange"]
+- ["C9WhereAtV211AppDelegate", "applicationWillEnterForeground"]
+- ["C9WhereAtV211AppDelegate", "applicationWillResignActive"]
+- ["C9WhereAtV211AppDelegate", "applicationWillTerminate"]
+- ["C9WhereAtV211AppDelegate", "deinit"]
+- ["C9WhereAtV211AppDelegate", "init"]
+- ["C9WhereAtV211AppDelegate", "initLocationManager"]
+- !private ["C9WhereAtV211AppDelegate", "kCLLocationAccuracyBest"]
+- ["C9WhereAtV211AppDelegate", "locationArray"]
+- ["C9WhereAtV211AppDelegate", "locationFixAchieved"]
+- ["C9WhereAtV211AppDelegate", "locationManager"]
+- ["C9WhereAtV211AppDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["C9WhereAtV211AppDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["C9WhereAtV211AppDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- ["C9WhereAtV211AppDelegate", "locationObj"]
+- ["C9WhereAtV211AppDelegate", "locationStatus"]
+- ["C9WhereAtV211AppDelegate", "password"]
+- ["C9WhereAtV211AppDelegate", "placemark"]
+- !private ["C9WhereAtV211AppDelegate", "print"]
+- ["C9WhereAtV211AppDelegate", "seenError"]
+- ["C9WhereAtV211AppDelegate", "tabBarController"]
+- ["C9WhereAtV211AppDelegate", "username"]
+- ["C9WhereAtV211AppDelegate", "window"]
+- !private ["P12FacebookCore26AppEventParameterValueType", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["CSo10CLGeocoder", "init"]
+- !private ["CSo10CLGeocoder", "reverseGeocodeLocation"]
+- !private ["CSo10CLLocation", "coordinate"]
+- !private ["VSC22CLLocationCoordinate2D", "latitude"]
+- !private ["VSC22CLLocationCoordinate2D", "longitude"]
+- !private ["CSo17CLLocationManager", "delegate"]
+- !private ["CSo17CLLocationManager", "desiredAccuracy"]
+- !private ["CSo17CLLocationManager", "init"]
+- !private ["CSo17CLLocationManager", "location"]
+- !private ["CSo17CLLocationManager", "locationServicesEnabled"]
+- !private ["CSo17CLLocationManager", "requestWhenInUseAuthorization"]
+- !private ["CSo17CLLocationManager", "startUpdatingLocation"]
+- !private ["CSo17CLLocationManager", "stopUpdatingLocation"]
+- !private ["PSo25CLLocationManagerDelegate", "CLGeocoder"]
+- !private ["PSo25CLLocationManagerDelegate", "CLLocationManager"]
+- !private ["PSo25CLLocationManagerDelegate", "ViewController"]
+- ["PSo25CLLocationManagerDelegate", "application"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidBecomeActive"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidEnterBackground"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidFinishLaunching"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo25CLLocationManagerDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo25CLLocationManagerDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo25CLLocationManagerDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo25CLLocationManagerDelegate", "applicationSignificantTimeChange"]
+- ["PSo25CLLocationManagerDelegate", "applicationWillEnterForeground"]
+- ["PSo25CLLocationManagerDelegate", "applicationWillResignActive"]
+- ["PSo25CLLocationManagerDelegate", "applicationWillTerminate"]
+- !private ["PSo25CLLocationManagerDelegate", "initLocationManager"]
+- !private ["PSo25CLLocationManagerDelegate", "kCLLocationAccuracyBest"]
+- !private ["PSo25CLLocationManagerDelegate", "locationArray"]
+- !private ["PSo25CLLocationManagerDelegate", "locationFixAchieved"]
+- ["PSo25CLLocationManagerDelegate", "locationManager"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo25CLLocationManagerDelegate", "locationObj"]
+- !private ["PSo25CLLocationManagerDelegate", "password"]
+- !private ["PSo25CLLocationManagerDelegate", "placemark"]
+- !private ["PSo25CLLocationManagerDelegate", "print"]
+- !private ["PSo25CLLocationManagerDelegate", "seenError"]
+- !private ["PSo25CLLocationManagerDelegate", "username"]
+- ["PSo25CLLocationManagerDelegate", "window"]
+- ["PSo25CLLocationManagerDelegate", ""]
+- !private ["Ps7CVarArg", "CLGeocoder"]
+- !private ["Ps7CVarArg", "CLLocationManager"]
+- !private ["Ps7CVarArg", "ViewController"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "coordinate"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "desiredAccuracy"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initLocationManager"]
+- !private ["Ps7CVarArg", "kCLLocationAccuracyBest"]
+- !private ["Ps7CVarArg", "lastObject"]
+- !private ["Ps7CVarArg", "location"]
+- !private ["Ps7CVarArg", "locationArray"]
+- !private ["Ps7CVarArg", "locationFixAchieved"]
+- ["Ps7CVarArg", "locationManager"]
+- ["Ps7CVarArg", "locationManagerDidPauseLocationUpdates"]
+- ["Ps7CVarArg", "locationManagerDidResumeLocationUpdates"]
+- ["Ps7CVarArg", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps7CVarArg", "locationObj"]
+- !private ["Ps7CVarArg", "locationServicesEnabled"]
+- !private ["Ps7CVarArg", "password"]
+- !private ["Ps7CVarArg", "placemark"]
+- !private ["Ps7CVarArg", "present"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "requestWhenInUseAuthorization"]
+- !private ["Ps7CVarArg", "reverseGeocodeLocation"]
+- !private ["Ps7CVarArg", "rootViewController"]
+- !private ["Ps7CVarArg", "seenError"]
+- !private ["Ps7CVarArg", "startUpdatingLocation"]
+- !private ["Ps7CVarArg", "stopUpdatingLocation"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "username"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CLGeocoder"]
+- !private ["Ps28CustomDebugStringConvertible", "CLLocationManager"]
+- !private ["Ps28CustomDebugStringConvertible", "ViewController"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinate"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "desiredAccuracy"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initLocationManager"]
+- !private ["Ps28CustomDebugStringConvertible", "kCLLocationAccuracyBest"]
+- !private ["Ps28CustomDebugStringConvertible", "lastObject"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- !private ["Ps28CustomDebugStringConvertible", "locationArray"]
+- !private ["Ps28CustomDebugStringConvertible", "locationFixAchieved"]
+- ["Ps28CustomDebugStringConvertible", "locationManager"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps28CustomDebugStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps28CustomDebugStringConvertible", "locationObj"]
+- !private ["Ps28CustomDebugStringConvertible", "locationServicesEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "password"]
+- !private ["Ps28CustomDebugStringConvertible", "placemark"]
+- !private ["Ps28CustomDebugStringConvertible", "present"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "requestWhenInUseAuthorization"]
+- !private ["Ps28CustomDebugStringConvertible", "reverseGeocodeLocation"]
+- !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "seenError"]
+- !private ["Ps28CustomDebugStringConvertible", "startUpdatingLocation"]
+- !private ["Ps28CustomDebugStringConvertible", "stopUpdatingLocation"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "username"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "lastObject"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "CLGeocoder"]
+- !private ["Ps23CustomStringConvertible", "CLLocationManager"]
+- !private ["Ps23CustomStringConvertible", "ViewController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "coordinate"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "desiredAccuracy"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initLocationManager"]
+- !private ["Ps23CustomStringConvertible", "kCLLocationAccuracyBest"]
+- !private ["Ps23CustomStringConvertible", "lastObject"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- !private ["Ps23CustomStringConvertible", "locationArray"]
+- !private ["Ps23CustomStringConvertible", "locationFixAchieved"]
+- ["Ps23CustomStringConvertible", "locationManager"]
+- ["Ps23CustomStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["Ps23CustomStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps23CustomStringConvertible", "locationObj"]
+- !private ["Ps23CustomStringConvertible", "locationServicesEnabled"]
+- !private ["Ps23CustomStringConvertible", "password"]
+- !private ["Ps23CustomStringConvertible", "placemark"]
+- !private ["Ps23CustomStringConvertible", "present"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "requestWhenInUseAuthorization"]
+- !private ["Ps23CustomStringConvertible", "reverseGeocodeLocation"]
+- !private ["Ps23CustomStringConvertible", "rootViewController"]
+- !private ["Ps23CustomStringConvertible", "seenError"]
+- !private ["Ps23CustomStringConvertible", "startUpdatingLocation"]
+- !private ["Ps23CustomStringConvertible", "stopUpdatingLocation"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "username"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CLGeocoder"]
+- !private ["Ps9Equatable", "CLLocationManager"]
+- !private ["Ps9Equatable", "ViewController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "coordinate"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "desiredAccuracy"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initLocationManager"]
+- !private ["Ps9Equatable", "kCLLocationAccuracyBest"]
+- !private ["Ps9Equatable", "lastObject"]
+- !private ["Ps9Equatable", "location"]
+- !private ["Ps9Equatable", "locationArray"]
+- !private ["Ps9Equatable", "locationFixAchieved"]
+- ["Ps9Equatable", "locationManager"]
+- ["Ps9Equatable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9Equatable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9Equatable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9Equatable", "locationObj"]
+- !private ["Ps9Equatable", "locationServicesEnabled"]
+- !private ["Ps9Equatable", "password"]
+- !private ["Ps9Equatable", "placemark"]
+- !private ["Ps9Equatable", "present"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "requestWhenInUseAuthorization"]
+- !private ["Ps9Equatable", "reverseGeocodeLocation"]
+- !private ["Ps9Equatable", "rootViewController"]
+- !private ["Ps9Equatable", "seenError"]
+- !private ["Ps9Equatable", "startUpdatingLocation"]
+- !private ["Ps9Equatable", "stopUpdatingLocation"]
+- !private ["Ps9Equatable", "username"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "lastObject"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CLGeocoder"]
+- !private ["Ps8Hashable", "CLLocationManager"]
+- !private ["Ps8Hashable", "ViewController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "coordinate"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "desiredAccuracy"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initLocationManager"]
+- !private ["Ps8Hashable", "kCLLocationAccuracyBest"]
+- !private ["Ps8Hashable", "lastObject"]
+- !private ["Ps8Hashable", "location"]
+- !private ["Ps8Hashable", "locationArray"]
+- !private ["Ps8Hashable", "locationFixAchieved"]
+- ["Ps8Hashable", "locationManager"]
+- ["Ps8Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps8Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps8Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps8Hashable", "locationObj"]
+- !private ["Ps8Hashable", "locationServicesEnabled"]
+- !private ["Ps8Hashable", "password"]
+- !private ["Ps8Hashable", "placemark"]
+- !private ["Ps8Hashable", "present"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "requestWhenInUseAuthorization"]
+- !private ["Ps8Hashable", "reverseGeocodeLocation"]
+- !private ["Ps8Hashable", "rootViewController"]
+- !private ["Ps8Hashable", "seenError"]
+- !private ["Ps8Hashable", "startUpdatingLocation"]
+- !private ["Ps8Hashable", "stopUpdatingLocation"]
+- !private ["Ps8Hashable", "username"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["CSo7NSArray", "lastObject"]
+- !private ["PSo8NSCoding", "coordinate"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "lastObject"]
+- !private ["PSo8NSCoding", "present"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo9NSCopying", "coordinate"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "lastObject"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "present"]
+- !private ["PSo17NSFastEnumeration", "lastObject"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "lastObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CLGeocoder"]
+- ["CSo8NSObject", "CLLocation"]
+- ["CSo8NSObject", "CLLocationManager"]
+- !private ["CSo8NSObject", "CLLocationManagerDelegate"]
+- ["CSo8NSObject", "CLPlacemark"]
+- ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "NSArray"]
+- ["CSo8NSObject", "NSString"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- ["CSo8NSObject", "UITabBarController"]
+- ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "ViewController"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "coordinate"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "desiredAccuracy"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initLocationManager"]
+- !private ["CSo8NSObject", "kCLLocationAccuracyBest"]
+- !private ["CSo8NSObject", "lastObject"]
+- !private ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "locationArray"]
+- ["CSo8NSObject", "locationFixAchieved"]
+- ["CSo8NSObject", "locationManager"]
+- ["CSo8NSObject", "locationManagerDidPauseLocationUpdates"]
+- ["CSo8NSObject", "locationManagerDidResumeLocationUpdates"]
+- ["CSo8NSObject", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo8NSObject", "locationObj"]
+- !private ["CSo8NSObject", "locationServicesEnabled"]
+- ["CSo8NSObject", "locationStatus"]
+- ["CSo8NSObject", "password"]
+- ["CSo8NSObject", "placemark"]
+- !private ["CSo8NSObject", "present"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "requestWhenInUseAuthorization"]
+- !private ["CSo8NSObject", "reverseGeocodeLocation"]
+- !private ["CSo8NSObject", "rootViewController"]
+- ["CSo8NSObject", "seenError"]
+- !private ["CSo8NSObject", "startUpdatingLocation"]
+- !private ["CSo8NSObject", "stopUpdatingLocation"]
+- ["CSo8NSObject", "tabBarController"]
+- ["CSo8NSObject", "username"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "CLGeocoder"]
+- !private ["PSo16NSObjectProtocol", "CLLocationManager"]
+- !private ["PSo16NSObjectProtocol", "ViewController"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "desiredAccuracy"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initLocationManager"]
+- !private ["PSo16NSObjectProtocol", "kCLLocationAccuracyBest"]
+- !private ["PSo16NSObjectProtocol", "lastObject"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- !private ["PSo16NSObjectProtocol", "locationArray"]
+- !private ["PSo16NSObjectProtocol", "locationFixAchieved"]
+- ["PSo16NSObjectProtocol", "locationManager"]
+- ["PSo16NSObjectProtocol", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo16NSObjectProtocol", "locationObj"]
+- !private ["PSo16NSObjectProtocol", "locationServicesEnabled"]
+- !private ["PSo16NSObjectProtocol", "password"]
+- !private ["PSo16NSObjectProtocol", "placemark"]
+- !private ["PSo16NSObjectProtocol", "present"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "requestWhenInUseAuthorization"]
+- !private ["PSo16NSObjectProtocol", "reverseGeocodeLocation"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "seenError"]
+- !private ["PSo16NSObjectProtocol", "startUpdatingLocation"]
+- !private ["PSo16NSObjectProtocol", "stopUpdatingLocation"]
+- !private ["PSo16NSObjectProtocol", "username"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "coordinate"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "lastObject"]
+- ["CSo8NSString", "init"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "lastObject"]
+- !private ["Ps8Sequence", "subscript"]
+- ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "present"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIApplicationDelegate", "CLGeocoder"]
+- !private ["PSo21UIApplicationDelegate", "CLLocationManager"]
+- !private ["PSo21UIApplicationDelegate", "ViewController"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "initLocationManager"]
+- !private ["PSo21UIApplicationDelegate", "kCLLocationAccuracyBest"]
+- !private ["PSo21UIApplicationDelegate", "locationArray"]
+- !private ["PSo21UIApplicationDelegate", "locationFixAchieved"]
+- ["PSo21UIApplicationDelegate", "locationManager"]
+- ["PSo21UIApplicationDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo21UIApplicationDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo21UIApplicationDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo21UIApplicationDelegate", "locationObj"]
+- !private ["PSo21UIApplicationDelegate", "password"]
+- !private ["PSo21UIApplicationDelegate", "placemark"]
+- !private ["PSo21UIApplicationDelegate", "print"]
+- !private ["PSo21UIApplicationDelegate", "seenError"]
+- !private ["PSo21UIApplicationDelegate", "username"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "present"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "present"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo11UIFocusItem", "rootViewController"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CLGeocoder"]
+- ["CSo11UIResponder", "CLLocation"]
+- ["CSo11UIResponder", "CLLocationManager"]
+- !private ["CSo11UIResponder", "CLLocationManagerDelegate"]
+- ["CSo11UIResponder", "CLPlacemark"]
+- ["CSo11UIResponder", "Error"]
+- ["CSo11UIResponder", "NSArray"]
+- ["CSo11UIResponder", "NSString"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- ["CSo11UIResponder", "UITabBarController"]
+- ["CSo11UIResponder", "UIWindow"]
+- !private ["CSo11UIResponder", "ViewController"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initLocationManager"]
+- !private ["CSo11UIResponder", "kCLLocationAccuracyBest"]
+- ["CSo11UIResponder", "locationArray"]
+- ["CSo11UIResponder", "locationFixAchieved"]
+- ["CSo11UIResponder", "locationManager"]
+- ["CSo11UIResponder", "locationManagerDidPauseLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerDidResumeLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo11UIResponder", "locationObj"]
+- ["CSo11UIResponder", "locationStatus"]
+- ["CSo11UIResponder", "password"]
+- ["CSo11UIResponder", "placemark"]
+- !private ["CSo11UIResponder", "present"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- ["CSo11UIResponder", "seenError"]
+- ["CSo11UIResponder", "tabBarController"]
+- ["CSo11UIResponder", "username"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "CLGeocoder"]
+- !private ["PSo30UIResponderStandardEditActions", "CLLocationManager"]
+- !private ["PSo30UIResponderStandardEditActions", "ViewController"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "initLocationManager"]
+- !private ["PSo30UIResponderStandardEditActions", "kCLLocationAccuracyBest"]
+- !private ["PSo30UIResponderStandardEditActions", "locationArray"]
+- !private ["PSo30UIResponderStandardEditActions", "locationFixAchieved"]
+- ["PSo30UIResponderStandardEditActions", "locationManager"]
+- ["PSo30UIResponderStandardEditActions", "locationManagerDidPauseLocationUpdates"]
+- ["PSo30UIResponderStandardEditActions", "locationManagerDidResumeLocationUpdates"]
+- ["PSo30UIResponderStandardEditActions", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo30UIResponderStandardEditActions", "locationObj"]
+- !private ["PSo30UIResponderStandardEditActions", "password"]
+- !private ["PSo30UIResponderStandardEditActions", "placemark"]
+- !private ["PSo30UIResponderStandardEditActions", "present"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "rootViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "seenError"]
+- !private ["PSo30UIResponderStandardEditActions", "username"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "present"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "present"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "present"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["C9WhereAtV214ViewController", "init"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CLGeocoder"]
+- !private ["Ps9_Hashable", "CLLocationManager"]
+- !private ["Ps9_Hashable", "ViewController"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "coordinate"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "desiredAccuracy"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initLocationManager"]
+- !private ["Ps9_Hashable", "kCLLocationAccuracyBest"]
+- !private ["Ps9_Hashable", "lastObject"]
+- !private ["Ps9_Hashable", "location"]
+- !private ["Ps9_Hashable", "locationArray"]
+- !private ["Ps9_Hashable", "locationFixAchieved"]
+- ["Ps9_Hashable", "locationManager"]
+- ["Ps9_Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["Ps9_Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["Ps9_Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["Ps9_Hashable", "locationObj"]
+- !private ["Ps9_Hashable", "locationServicesEnabled"]
+- !private ["Ps9_Hashable", "password"]
+- !private ["Ps9_Hashable", "placemark"]
+- !private ["Ps9_Hashable", "present"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "requestWhenInUseAuthorization"]
+- !private ["Ps9_Hashable", "reverseGeocodeLocation"]
+- !private ["Ps9_Hashable", "rootViewController"]
+- !private ["Ps9_Hashable", "seenError"]
+- !private ["Ps9_Hashable", "startUpdatingLocation"]
+- !private ["Ps9_Hashable", "stopUpdatingLocation"]
+- !private ["Ps9_Hashable", "username"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "latitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "longitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C9WhereAtV211AppDelegate"
+- !private "P12FacebookCore26AppEventParameterValueType"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "CSo10CLGeocoder"
+- !private "CSo10CLLocation"
+- !private "VSC22CLLocationCoordinate2D"
+- !private "CSo17CLLocationManager"
+- "PSo25CLLocationManagerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "CSo7NSArray"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "C9WhereAtV214ViewController"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.apinotesc"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/arm64.swiftmodule"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/arm64.swiftmodule"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphoneos/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+interface-hash: "bd14f05560762c1c1befe8ff5217f561"

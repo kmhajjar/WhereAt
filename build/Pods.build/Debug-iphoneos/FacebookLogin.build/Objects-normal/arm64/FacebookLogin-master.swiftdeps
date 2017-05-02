@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "e116d0e357bb944e53b70008b5c60c1a"
+build_time: [545416498, 769603000]
+inputs:
+  "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/FacebookLogin/Sources/Login/LoginBehavior.swift": [544297525, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/FacebookLogin/Sources/Login/LoginButton.swift": [544297525, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/FacebookLogin/Sources/Login/LoginButton.Tooltip.swift": [544297525, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/FacebookLogin/Sources/Login/LoginButtonDelegate.swift": [544297525, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/FacebookLogin/Sources/Login/LoginButtonDelegateBridge.swift": [544297525, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/FacebookLogin/Sources/Login/LoginDefaultAudience.swift": [544297525, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/FacebookLogin/Sources/Login/LoginManager.swift": [544297525, 0]
+  "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/FacebookLogin/Sources/Login/LoginResult.swift": [544297525, 0]

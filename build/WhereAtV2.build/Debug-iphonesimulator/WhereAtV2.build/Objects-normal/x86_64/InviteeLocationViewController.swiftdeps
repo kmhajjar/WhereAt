@@ -1,0 +1,1458 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InviteeLocationViewController"
+provides-nominal:
+- "C9WhereAtV229InviteeLocationViewController"
+provides-member:
+- ["C9WhereAtV229InviteeLocationViewController", ""]
+provides-dynamic-lookup:
+- "Time"
+- "WhoWith"
+- "closureReturn"
+- "degreeToRadian"
+- "didReceiveMemoryWarning"
+- "equidistLat"
+- "equidistLong"
+- "lat"
+- "long"
+- "navItem"
+- "prepare"
+- "radianToDegree"
+- "sendLocationsUpdate"
+- "submitLocation"
+- "timeEnd"
+- "titleLabel"
+- "viewDidLoad"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "/"
+- !private "=="
+- !private "??"
+- !private "AppDelegate"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CastingPrecedence"
+- !private "Double"
+- "InviteeLocationViewController"
+- !private "InviteePicksViewController"
+- !private "JSONSerialization"
+- "Meetup"
+- !private "NumberFormatter"
+- !private "SecondViewController"
+- "String"
+- !private "StringLiteralType"
+- !private "UIApplication"
+- "UILabel"
+- !private "UINavigationController"
+- "UINavigationItem"
+- "UIStoryboardSegue"
+- !private "UITabBarController"
+- "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- "Void"
+- !private "atan2"
+- !private "cos"
+- !private "print"
+- !private "sin"
+- !private "sqrt"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "pi"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- !private ["Ps9AnyObject", "NumberFormatter"]
+- !private ["Ps9AnyObject", "Time"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "URLRequest"]
+- !private ["Ps9AnyObject", "URLSession"]
+- !private ["Ps9AnyObject", "WhoWith"]
+- !private ["Ps9AnyObject", "atan2"]
+- !private ["Ps9AnyObject", "closureReturn"]
+- !private ["Ps9AnyObject", "coordinate"]
+- !private ["Ps9AnyObject", "cos"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "dataTask"]
+- !private ["Ps9AnyObject", "degreeToRadian"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "destination"]
+- !private ["Ps9AnyObject", "detailMeetup"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "equidistLat"]
+- !private ["Ps9AnyObject", "equidistLong"]
+- !private ["Ps9AnyObject", "finalLat"]
+- !private ["Ps9AnyObject", "finalLong"]
+- !private ["Ps9AnyObject", "identifier"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonObject"]
+- !private ["Ps9AnyObject", "lat"]
+- !private ["Ps9AnyObject", "locationObj"]
+- !private ["Ps9AnyObject", "long"]
+- !private ["Ps9AnyObject", "meetupid"]
+- !private ["Ps9AnyObject", "meetuptitle"]
+- !private ["Ps9AnyObject", "middlePoint"]
+- !private ["Ps9AnyObject", "navItem"]
+- !private ["Ps9AnyObject", "number"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "radianToDegree"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "sendLocationsUpdate"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "sin"]
+- !private ["Ps9AnyObject", "sqrt"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "timeEnd"]
+- !private ["Ps9AnyObject", "title"]
+- !private ["Ps9AnyObject", "titleLabel"]
+- !private ["Ps9AnyObject", "topViewController"]
+- !private ["Ps9AnyObject", "username"]
+- !private ["Ps9AnyObject", "viewControllers"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["C9WhereAtV211AppDelegate", "locationObj"]
+- !private ["C9WhereAtV211AppDelegate", "username"]
+- !private ["P12FacebookCore26AppEventParameterValueType", "init"]
+- !private ["P12FacebookCore26AppEventParameterValueType", "pi"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps19BinaryFloatingPoint", "pi"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["CSo10CLLocation", "coordinate"]
+- !private ["VSC22CLLocationCoordinate2D", "latitude"]
+- !private ["VSC22CLLocationCoordinate2D", "longitude"]
+- !private ["PSo25CLLocationManagerDelegate", "locationObj"]
+- !private ["PSo25CLLocationManagerDelegate", "username"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "JSONSerialization"]
+- !private ["Ps7CVarArg", "NumberFormatter"]
+- !private ["Ps7CVarArg", "Time"]
+- !private ["Ps7CVarArg", "UIApplication"]
+- !private ["Ps7CVarArg", "URL"]
+- !private ["Ps7CVarArg", "URLRequest"]
+- !private ["Ps7CVarArg", "URLSession"]
+- !private ["Ps7CVarArg", "WhoWith"]
+- !private ["Ps7CVarArg", "atan2"]
+- !private ["Ps7CVarArg", "closureReturn"]
+- !private ["Ps7CVarArg", "coordinate"]
+- !private ["Ps7CVarArg", "cos"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "dataTask"]
+- !private ["Ps7CVarArg", "degreeToRadian"]
+- !private ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "destination"]
+- !private ["Ps7CVarArg", "detailMeetup"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "equidistLat"]
+- !private ["Ps7CVarArg", "equidistLong"]
+- !private ["Ps7CVarArg", "finalLat"]
+- !private ["Ps7CVarArg", "finalLong"]
+- !private ["Ps7CVarArg", "identifier"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonObject"]
+- !private ["Ps7CVarArg", "lat"]
+- !private ["Ps7CVarArg", "locationObj"]
+- !private ["Ps7CVarArg", "long"]
+- !private ["Ps7CVarArg", "meetupid"]
+- !private ["Ps7CVarArg", "meetuptitle"]
+- !private ["Ps7CVarArg", "middlePoint"]
+- !private ["Ps7CVarArg", "navItem"]
+- !private ["Ps7CVarArg", "number"]
+- !private ["Ps7CVarArg", "pi"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "radianToDegree"]
+- !private ["Ps7CVarArg", "resume"]
+- !private ["Ps7CVarArg", "sendLocationsUpdate"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "sin"]
+- !private ["Ps7CVarArg", "sqrt"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "timeEnd"]
+- !private ["Ps7CVarArg", "title"]
+- !private ["Ps7CVarArg", "titleLabel"]
+- !private ["Ps7CVarArg", "topViewController"]
+- !private ["Ps7CVarArg", "username"]
+- !private ["Ps7CVarArg", "viewControllers"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pi"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONSerialization"]
+- !private ["Ps28CustomDebugStringConvertible", "NumberFormatter"]
+- !private ["Ps28CustomDebugStringConvertible", "Time"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "URL"]
+- !private ["Ps28CustomDebugStringConvertible", "URLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "URLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "WhoWith"]
+- !private ["Ps28CustomDebugStringConvertible", "atan2"]
+- !private ["Ps28CustomDebugStringConvertible", "closureReturn"]
+- !private ["Ps28CustomDebugStringConvertible", "coordinate"]
+- !private ["Ps28CustomDebugStringConvertible", "cos"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- !private ["Ps28CustomDebugStringConvertible", "degreeToRadian"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "destination"]
+- !private ["Ps28CustomDebugStringConvertible", "detailMeetup"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "equidistLat"]
+- !private ["Ps28CustomDebugStringConvertible", "equidistLong"]
+- !private ["Ps28CustomDebugStringConvertible", "finalLat"]
+- !private ["Ps28CustomDebugStringConvertible", "finalLong"]
+- !private ["Ps28CustomDebugStringConvertible", "httpBody"]
+- !private ["Ps28CustomDebugStringConvertible", "httpMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- !private ["Ps28CustomDebugStringConvertible", "lat"]
+- !private ["Ps28CustomDebugStringConvertible", "locationObj"]
+- !private ["Ps28CustomDebugStringConvertible", "long"]
+- !private ["Ps28CustomDebugStringConvertible", "meetupid"]
+- !private ["Ps28CustomDebugStringConvertible", "meetuptitle"]
+- !private ["Ps28CustomDebugStringConvertible", "middlePoint"]
+- !private ["Ps28CustomDebugStringConvertible", "navItem"]
+- !private ["Ps28CustomDebugStringConvertible", "number"]
+- !private ["Ps28CustomDebugStringConvertible", "pi"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "radianToDegree"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "sendLocationsUpdate"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "sin"]
+- !private ["Ps28CustomDebugStringConvertible", "sqrt"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "timeEnd"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- !private ["Ps28CustomDebugStringConvertible", "titleLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "topViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "username"]
+- !private ["Ps28CustomDebugStringConvertible", "viewControllers"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pi"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "httpBody"]
+- !private ["Ps17CustomReflectable", "httpMethod"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pi"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "JSONSerialization"]
+- !private ["Ps23CustomStringConvertible", "NumberFormatter"]
+- !private ["Ps23CustomStringConvertible", "Time"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "URL"]
+- !private ["Ps23CustomStringConvertible", "URLRequest"]
+- !private ["Ps23CustomStringConvertible", "URLSession"]
+- !private ["Ps23CustomStringConvertible", "WhoWith"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "atan2"]
+- !private ["Ps23CustomStringConvertible", "closureReturn"]
+- !private ["Ps23CustomStringConvertible", "coordinate"]
+- !private ["Ps23CustomStringConvertible", "cos"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- !private ["Ps23CustomStringConvertible", "degreeToRadian"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "destination"]
+- !private ["Ps23CustomStringConvertible", "detailMeetup"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "equidistLat"]
+- !private ["Ps23CustomStringConvertible", "equidistLong"]
+- !private ["Ps23CustomStringConvertible", "finalLat"]
+- !private ["Ps23CustomStringConvertible", "finalLong"]
+- !private ["Ps23CustomStringConvertible", "httpBody"]
+- !private ["Ps23CustomStringConvertible", "httpMethod"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
+- !private ["Ps23CustomStringConvertible", "lat"]
+- !private ["Ps23CustomStringConvertible", "locationObj"]
+- !private ["Ps23CustomStringConvertible", "long"]
+- !private ["Ps23CustomStringConvertible", "meetupid"]
+- !private ["Ps23CustomStringConvertible", "meetuptitle"]
+- !private ["Ps23CustomStringConvertible", "middlePoint"]
+- !private ["Ps23CustomStringConvertible", "navItem"]
+- !private ["Ps23CustomStringConvertible", "number"]
+- !private ["Ps23CustomStringConvertible", "pi"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "radianToDegree"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "sendLocationsUpdate"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "sin"]
+- !private ["Ps23CustomStringConvertible", "sqrt"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "timeEnd"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- !private ["Ps23CustomStringConvertible", "titleLabel"]
+- !private ["Ps23CustomStringConvertible", "topViewController"]
+- !private ["Ps23CustomStringConvertible", "username"]
+- !private ["Ps23CustomStringConvertible", "viewControllers"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "pi"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "JSONSerialization"]
+- !private ["Ps9Equatable", "NumberFormatter"]
+- !private ["Ps9Equatable", "Time"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "URL"]
+- !private ["Ps9Equatable", "URLRequest"]
+- !private ["Ps9Equatable", "URLSession"]
+- !private ["Ps9Equatable", "WhoWith"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "atan2"]
+- !private ["Ps9Equatable", "closureReturn"]
+- !private ["Ps9Equatable", "coordinate"]
+- !private ["Ps9Equatable", "cos"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "dataTask"]
+- !private ["Ps9Equatable", "degreeToRadian"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "destination"]
+- !private ["Ps9Equatable", "detailMeetup"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "equidistLat"]
+- !private ["Ps9Equatable", "equidistLong"]
+- !private ["Ps9Equatable", "finalLat"]
+- !private ["Ps9Equatable", "finalLong"]
+- !private ["Ps9Equatable", "httpBody"]
+- !private ["Ps9Equatable", "httpMethod"]
+- !private ["Ps9Equatable", "identifier"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonObject"]
+- !private ["Ps9Equatable", "lat"]
+- !private ["Ps9Equatable", "locationObj"]
+- !private ["Ps9Equatable", "long"]
+- !private ["Ps9Equatable", "meetupid"]
+- !private ["Ps9Equatable", "meetuptitle"]
+- !private ["Ps9Equatable", "middlePoint"]
+- !private ["Ps9Equatable", "navItem"]
+- !private ["Ps9Equatable", "number"]
+- !private ["Ps9Equatable", "pi"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "radianToDegree"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "sendLocationsUpdate"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "sin"]
+- !private ["Ps9Equatable", "sqrt"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "timeEnd"]
+- !private ["Ps9Equatable", "title"]
+- !private ["Ps9Equatable", "titleLabel"]
+- !private ["Ps9Equatable", "topViewController"]
+- !private ["Ps9Equatable", "username"]
+- !private ["Ps9Equatable", "viewControllers"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "pi"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "pi"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps13FloatingPoint", "pi"]
+- !private ["CSo9Formatter", "init"]
+- !private ["CSo9Formatter", "number"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "JSONSerialization"]
+- !private ["Ps8Hashable", "NumberFormatter"]
+- !private ["Ps8Hashable", "Time"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "URL"]
+- !private ["Ps8Hashable", "URLRequest"]
+- !private ["Ps8Hashable", "URLSession"]
+- !private ["Ps8Hashable", "WhoWith"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "atan2"]
+- !private ["Ps8Hashable", "closureReturn"]
+- !private ["Ps8Hashable", "coordinate"]
+- !private ["Ps8Hashable", "cos"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "dataTask"]
+- !private ["Ps8Hashable", "degreeToRadian"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "destination"]
+- !private ["Ps8Hashable", "detailMeetup"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "equidistLat"]
+- !private ["Ps8Hashable", "equidistLong"]
+- !private ["Ps8Hashable", "finalLat"]
+- !private ["Ps8Hashable", "finalLong"]
+- !private ["Ps8Hashable", "httpBody"]
+- !private ["Ps8Hashable", "httpMethod"]
+- !private ["Ps8Hashable", "identifier"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonObject"]
+- !private ["Ps8Hashable", "lat"]
+- !private ["Ps8Hashable", "locationObj"]
+- !private ["Ps8Hashable", "long"]
+- !private ["Ps8Hashable", "meetupid"]
+- !private ["Ps8Hashable", "meetuptitle"]
+- !private ["Ps8Hashable", "middlePoint"]
+- !private ["Ps8Hashable", "navItem"]
+- !private ["Ps8Hashable", "number"]
+- !private ["Ps8Hashable", "pi"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "radianToDegree"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "sendLocationsUpdate"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "sin"]
+- !private ["Ps8Hashable", "sqrt"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "timeEnd"]
+- !private ["Ps8Hashable", "title"]
+- !private ["Ps8Hashable", "titleLabel"]
+- !private ["Ps8Hashable", "topViewController"]
+- !private ["Ps8Hashable", "username"]
+- !private ["Ps8Hashable", "viewControllers"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["C9WhereAtV229InviteeLocationViewController", "AppDelegate"]
+- ["C9WhereAtV229InviteeLocationViewController", "Bool"]
+- ["C9WhereAtV229InviteeLocationViewController", "CGFloat"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "Double"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "InviteePicksViewController"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "JSONSerialization"]
+- ["C9WhereAtV229InviteeLocationViewController", "Meetup"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "NumberFormatter"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "SecondViewController"]
+- ["C9WhereAtV229InviteeLocationViewController", "String"]
+- ["C9WhereAtV229InviteeLocationViewController", "Time"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "UIApplication"]
+- ["C9WhereAtV229InviteeLocationViewController", "UILabel"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "UINavigationController"]
+- ["C9WhereAtV229InviteeLocationViewController", "UINavigationItem"]
+- ["C9WhereAtV229InviteeLocationViewController", "UIStoryboardSegue"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "UITabBarController"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "URL"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "URLRequest"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "URLSession"]
+- ["C9WhereAtV229InviteeLocationViewController", "Void"]
+- ["C9WhereAtV229InviteeLocationViewController", "WhoWith"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "atan2"]
+- ["C9WhereAtV229InviteeLocationViewController", "closureReturn"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "cos"]
+- ["C9WhereAtV229InviteeLocationViewController", "degreeToRadian"]
+- ["C9WhereAtV229InviteeLocationViewController", "deinit"]
+- ["C9WhereAtV229InviteeLocationViewController", "detailMeetup"]
+- ["C9WhereAtV229InviteeLocationViewController", "didReceiveMemoryWarning"]
+- ["C9WhereAtV229InviteeLocationViewController", "equidistLat"]
+- ["C9WhereAtV229InviteeLocationViewController", "equidistLong"]
+- ["C9WhereAtV229InviteeLocationViewController", "init"]
+- ["C9WhereAtV229InviteeLocationViewController", "lat"]
+- ["C9WhereAtV229InviteeLocationViewController", "long"]
+- ["C9WhereAtV229InviteeLocationViewController", "middlePoint"]
+- ["C9WhereAtV229InviteeLocationViewController", "navItem"]
+- ["C9WhereAtV229InviteeLocationViewController", "prepare"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "print"]
+- ["C9WhereAtV229InviteeLocationViewController", "radianToDegree"]
+- ["C9WhereAtV229InviteeLocationViewController", "sendLocationsUpdate"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "sin"]
+- !private ["C9WhereAtV229InviteeLocationViewController", "sqrt"]
+- ["C9WhereAtV229InviteeLocationViewController", "submitLocation"]
+- ["C9WhereAtV229InviteeLocationViewController", "timeEnd"]
+- ["C9WhereAtV229InviteeLocationViewController", "titleLabel"]
+- ["C9WhereAtV229InviteeLocationViewController", "viewDidLoad"]
+- !private ["C9WhereAtV226InviteePicksViewController", "finalLat"]
+- !private ["C9WhereAtV226InviteePicksViewController", "finalLong"]
+- !private ["C9WhereAtV226InviteePicksViewController", "meetupid"]
+- !private ["C9WhereAtV226InviteePicksViewController", "meetuptitle"]
+- !private ["CSo17JSONSerialization", "data"]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "pi"]
+- !private ["V9WhereAtV26Meetup", "_id"]
+- !private ["V9WhereAtV26Meetup", "end_time"]
+- !private ["V9WhereAtV26Meetup", "invitee_name"]
+- !private ["V9WhereAtV26Meetup", "owner_lat"]
+- !private ["V9WhereAtV26Meetup", "owner_long"]
+- !private ["V9WhereAtV26Meetup", "owner_name"]
+- !private ["V9WhereAtV26Meetup", "start_time"]
+- !private ["V9WhereAtV26Meetup", "title_meetup"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "Double"]
+- !private ["PSo8NSCoding", "JSONSerialization"]
+- !private ["PSo8NSCoding", "NumberFormatter"]
+- !private ["PSo8NSCoding", "Time"]
+- !private ["PSo8NSCoding", "UIApplication"]
+- !private ["PSo8NSCoding", "URL"]
+- !private ["PSo8NSCoding", "URLRequest"]
+- !private ["PSo8NSCoding", "URLSession"]
+- !private ["PSo8NSCoding", "WhoWith"]
+- !private ["PSo8NSCoding", "atan2"]
+- !private ["PSo8NSCoding", "closureReturn"]
+- !private ["PSo8NSCoding", "coordinate"]
+- !private ["PSo8NSCoding", "cos"]
+- !private ["PSo8NSCoding", "degreeToRadian"]
+- !private ["PSo8NSCoding", "detailMeetup"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "equidistLat"]
+- !private ["PSo8NSCoding", "equidistLong"]
+- !private ["PSo8NSCoding", "finalLat"]
+- !private ["PSo8NSCoding", "finalLong"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "lat"]
+- !private ["PSo8NSCoding", "long"]
+- !private ["PSo8NSCoding", "meetupid"]
+- !private ["PSo8NSCoding", "meetuptitle"]
+- !private ["PSo8NSCoding", "middlePoint"]
+- !private ["PSo8NSCoding", "navItem"]
+- !private ["PSo8NSCoding", "number"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "radianToDegree"]
+- !private ["PSo8NSCoding", "sendLocationsUpdate"]
+- !private ["PSo8NSCoding", "sin"]
+- !private ["PSo8NSCoding", "sqrt"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "timeEnd"]
+- !private ["PSo8NSCoding", "title"]
+- !private ["PSo8NSCoding", "titleLabel"]
+- !private ["PSo8NSCoding", "topViewController"]
+- !private ["PSo8NSCoding", "viewControllers"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "coordinate"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "number"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo26NSExtensionRequestHandling", "CGFloat"]
+- !private ["PSo26NSExtensionRequestHandling", "Double"]
+- !private ["PSo26NSExtensionRequestHandling", "JSONSerialization"]
+- !private ["PSo26NSExtensionRequestHandling", "NumberFormatter"]
+- !private ["PSo26NSExtensionRequestHandling", "Time"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
+- !private ["PSo26NSExtensionRequestHandling", "URL"]
+- !private ["PSo26NSExtensionRequestHandling", "URLRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "URLSession"]
+- !private ["PSo26NSExtensionRequestHandling", "WhoWith"]
+- !private ["PSo26NSExtensionRequestHandling", "atan2"]
+- !private ["PSo26NSExtensionRequestHandling", "closureReturn"]
+- !private ["PSo26NSExtensionRequestHandling", "cos"]
+- !private ["PSo26NSExtensionRequestHandling", "degreeToRadian"]
+- !private ["PSo26NSExtensionRequestHandling", "detailMeetup"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "equidistLat"]
+- !private ["PSo26NSExtensionRequestHandling", "equidistLong"]
+- !private ["PSo26NSExtensionRequestHandling", "finalLat"]
+- !private ["PSo26NSExtensionRequestHandling", "finalLong"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "lat"]
+- !private ["PSo26NSExtensionRequestHandling", "long"]
+- !private ["PSo26NSExtensionRequestHandling", "meetupid"]
+- !private ["PSo26NSExtensionRequestHandling", "meetuptitle"]
+- !private ["PSo26NSExtensionRequestHandling", "middlePoint"]
+- !private ["PSo26NSExtensionRequestHandling", "navItem"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "radianToDegree"]
+- !private ["PSo26NSExtensionRequestHandling", "sendLocationsUpdate"]
+- !private ["PSo26NSExtensionRequestHandling", "sin"]
+- !private ["PSo26NSExtensionRequestHandling", "sqrt"]
+- !private ["PSo26NSExtensionRequestHandling", "timeEnd"]
+- !private ["PSo26NSExtensionRequestHandling", "titleLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "topViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "viewControllers"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AppDelegate"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "InviteePicksViewController"]
+- !private ["CSo8NSObject", "JSONSerialization"]
+- ["CSo8NSObject", "Meetup"]
+- !private ["CSo8NSObject", "NumberFormatter"]
+- !private ["CSo8NSObject", "SecondViewController"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Time"]
+- !private ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "UINavigationController"]
+- ["CSo8NSObject", "UINavigationItem"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- !private ["CSo8NSObject", "UITabBarController"]
+- !private ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "URLRequest"]
+- !private ["CSo8NSObject", "URLSession"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "WhoWith"]
+- !private ["CSo8NSObject", "atan2"]
+- ["CSo8NSObject", "closureReturn"]
+- !private ["CSo8NSObject", "coordinate"]
+- !private ["CSo8NSObject", "cos"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "dataTask"]
+- ["CSo8NSObject", "degreeToRadian"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "destination"]
+- ["CSo8NSObject", "detailMeetup"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "equidistLat"]
+- ["CSo8NSObject", "equidistLong"]
+- !private ["CSo8NSObject", "finalLat"]
+- !private ["CSo8NSObject", "finalLong"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "jsonObject"]
+- ["CSo8NSObject", "lat"]
+- !private ["CSo8NSObject", "locationObj"]
+- ["CSo8NSObject", "long"]
+- !private ["CSo8NSObject", "meetupid"]
+- !private ["CSo8NSObject", "meetuptitle"]
+- ["CSo8NSObject", "middlePoint"]
+- ["CSo8NSObject", "navItem"]
+- !private ["CSo8NSObject", "number"]
+- ["CSo8NSObject", "prepare"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "radianToDegree"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "sendLocationsUpdate"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "sin"]
+- !private ["CSo8NSObject", "sqrt"]
+- ["CSo8NSObject", "submitLocation"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "timeEnd"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "titleLabel"]
+- !private ["CSo8NSObject", "topViewController"]
+- !private ["CSo8NSObject", "username"]
+- !private ["CSo8NSObject", "viewControllers"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "JSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "NumberFormatter"]
+- !private ["PSo16NSObjectProtocol", "Time"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "URL"]
+- !private ["PSo16NSObjectProtocol", "URLRequest"]
+- !private ["PSo16NSObjectProtocol", "URLSession"]
+- !private ["PSo16NSObjectProtocol", "WhoWith"]
+- !private ["PSo16NSObjectProtocol", "atan2"]
+- !private ["PSo16NSObjectProtocol", "closureReturn"]
+- !private ["PSo16NSObjectProtocol", "coordinate"]
+- !private ["PSo16NSObjectProtocol", "cos"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- !private ["PSo16NSObjectProtocol", "degreeToRadian"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "destination"]
+- !private ["PSo16NSObjectProtocol", "detailMeetup"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "equidistLat"]
+- !private ["PSo16NSObjectProtocol", "equidistLong"]
+- !private ["PSo16NSObjectProtocol", "finalLat"]
+- !private ["PSo16NSObjectProtocol", "finalLong"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
+- !private ["PSo16NSObjectProtocol", "lat"]
+- !private ["PSo16NSObjectProtocol", "locationObj"]
+- !private ["PSo16NSObjectProtocol", "long"]
+- !private ["PSo16NSObjectProtocol", "meetupid"]
+- !private ["PSo16NSObjectProtocol", "meetuptitle"]
+- !private ["PSo16NSObjectProtocol", "middlePoint"]
+- !private ["PSo16NSObjectProtocol", "navItem"]
+- !private ["PSo16NSObjectProtocol", "number"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "radianToDegree"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "sendLocationsUpdate"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "sin"]
+- !private ["PSo16NSObjectProtocol", "sqrt"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "timeEnd"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- !private ["PSo16NSObjectProtocol", "titleLabel"]
+- !private ["PSo16NSObjectProtocol", "topViewController"]
+- !private ["PSo16NSObjectProtocol", "username"]
+- !private ["PSo16NSObjectProtocol", "viewControllers"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "coordinate"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo15NumberFormatter", "init"]
+- !private ["CSo15NumberFormatter", "number"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P10Foundation20ReferenceConvertible", "httpBody"]
+- !private ["P10Foundation20ReferenceConvertible", "httpMethod"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "pi"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pi"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- !private ["PSo21UIAppearanceContainer", "Double"]
+- !private ["PSo21UIAppearanceContainer", "JSONSerialization"]
+- !private ["PSo21UIAppearanceContainer", "NumberFormatter"]
+- !private ["PSo21UIAppearanceContainer", "Time"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
+- !private ["PSo21UIAppearanceContainer", "URL"]
+- !private ["PSo21UIAppearanceContainer", "URLRequest"]
+- !private ["PSo21UIAppearanceContainer", "URLSession"]
+- !private ["PSo21UIAppearanceContainer", "WhoWith"]
+- !private ["PSo21UIAppearanceContainer", "atan2"]
+- !private ["PSo21UIAppearanceContainer", "closureReturn"]
+- !private ["PSo21UIAppearanceContainer", "cos"]
+- !private ["PSo21UIAppearanceContainer", "degreeToRadian"]
+- !private ["PSo21UIAppearanceContainer", "detailMeetup"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "equidistLat"]
+- !private ["PSo21UIAppearanceContainer", "equidistLong"]
+- !private ["PSo21UIAppearanceContainer", "finalLat"]
+- !private ["PSo21UIAppearanceContainer", "finalLong"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "lat"]
+- !private ["PSo21UIAppearanceContainer", "long"]
+- !private ["PSo21UIAppearanceContainer", "meetupid"]
+- !private ["PSo21UIAppearanceContainer", "meetuptitle"]
+- !private ["PSo21UIAppearanceContainer", "middlePoint"]
+- !private ["PSo21UIAppearanceContainer", "navItem"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "radianToDegree"]
+- !private ["PSo21UIAppearanceContainer", "sendLocationsUpdate"]
+- !private ["PSo21UIAppearanceContainer", "sin"]
+- !private ["PSo21UIAppearanceContainer", "sqrt"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "timeEnd"]
+- !private ["PSo21UIAppearanceContainer", "titleLabel"]
+- !private ["PSo21UIAppearanceContainer", "topViewController"]
+- !private ["PSo21UIAppearanceContainer", "viewControllers"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "shared"]
+- !private ["PSo21UIApplicationDelegate", "locationObj"]
+- !private ["PSo21UIApplicationDelegate", "username"]
+- !private ["PSo18UIContentContainer", "CGFloat"]
+- !private ["PSo18UIContentContainer", "Double"]
+- !private ["PSo18UIContentContainer", "JSONSerialization"]
+- !private ["PSo18UIContentContainer", "NumberFormatter"]
+- !private ["PSo18UIContentContainer", "Time"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
+- !private ["PSo18UIContentContainer", "URL"]
+- !private ["PSo18UIContentContainer", "URLRequest"]
+- !private ["PSo18UIContentContainer", "URLSession"]
+- !private ["PSo18UIContentContainer", "WhoWith"]
+- !private ["PSo18UIContentContainer", "atan2"]
+- !private ["PSo18UIContentContainer", "closureReturn"]
+- !private ["PSo18UIContentContainer", "cos"]
+- !private ["PSo18UIContentContainer", "degreeToRadian"]
+- !private ["PSo18UIContentContainer", "detailMeetup"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "equidistLat"]
+- !private ["PSo18UIContentContainer", "equidistLong"]
+- !private ["PSo18UIContentContainer", "finalLat"]
+- !private ["PSo18UIContentContainer", "finalLong"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "lat"]
+- !private ["PSo18UIContentContainer", "long"]
+- !private ["PSo18UIContentContainer", "meetupid"]
+- !private ["PSo18UIContentContainer", "meetuptitle"]
+- !private ["PSo18UIContentContainer", "middlePoint"]
+- !private ["PSo18UIContentContainer", "navItem"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "radianToDegree"]
+- !private ["PSo18UIContentContainer", "sendLocationsUpdate"]
+- !private ["PSo18UIContentContainer", "sin"]
+- !private ["PSo18UIContentContainer", "sqrt"]
+- !private ["PSo18UIContentContainer", "timeEnd"]
+- !private ["PSo18UIContentContainer", "titleLabel"]
+- !private ["PSo18UIContentContainer", "topViewController"]
+- !private ["PSo18UIContentContainer", "viewControllers"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- !private ["PSo18UIFocusEnvironment", "Double"]
+- !private ["PSo18UIFocusEnvironment", "JSONSerialization"]
+- !private ["PSo18UIFocusEnvironment", "NumberFormatter"]
+- !private ["PSo18UIFocusEnvironment", "Time"]
+- !private ["PSo18UIFocusEnvironment", "UIApplication"]
+- !private ["PSo18UIFocusEnvironment", "URL"]
+- !private ["PSo18UIFocusEnvironment", "URLRequest"]
+- !private ["PSo18UIFocusEnvironment", "URLSession"]
+- !private ["PSo18UIFocusEnvironment", "WhoWith"]
+- !private ["PSo18UIFocusEnvironment", "atan2"]
+- !private ["PSo18UIFocusEnvironment", "closureReturn"]
+- !private ["PSo18UIFocusEnvironment", "cos"]
+- !private ["PSo18UIFocusEnvironment", "degreeToRadian"]
+- !private ["PSo18UIFocusEnvironment", "detailMeetup"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "equidistLat"]
+- !private ["PSo18UIFocusEnvironment", "equidistLong"]
+- !private ["PSo18UIFocusEnvironment", "finalLat"]
+- !private ["PSo18UIFocusEnvironment", "finalLong"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "lat"]
+- !private ["PSo18UIFocusEnvironment", "long"]
+- !private ["PSo18UIFocusEnvironment", "meetupid"]
+- !private ["PSo18UIFocusEnvironment", "meetuptitle"]
+- !private ["PSo18UIFocusEnvironment", "middlePoint"]
+- !private ["PSo18UIFocusEnvironment", "navItem"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "radianToDegree"]
+- !private ["PSo18UIFocusEnvironment", "sendLocationsUpdate"]
+- !private ["PSo18UIFocusEnvironment", "sin"]
+- !private ["PSo18UIFocusEnvironment", "sqrt"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "timeEnd"]
+- !private ["PSo18UIFocusEnvironment", "titleLabel"]
+- !private ["PSo18UIFocusEnvironment", "topViewController"]
+- !private ["PSo18UIFocusEnvironment", "viewControllers"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo22UINavigationController", "topViewController"]
+- !private ["CSo16UINavigationItem", "title"]
+- !private ["CSo11UIResponder", "AppDelegate"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "Double"]
+- !private ["CSo11UIResponder", "InviteePicksViewController"]
+- !private ["CSo11UIResponder", "JSONSerialization"]
+- ["CSo11UIResponder", "Meetup"]
+- !private ["CSo11UIResponder", "NumberFormatter"]
+- !private ["CSo11UIResponder", "SecondViewController"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "Time"]
+- !private ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "UINavigationController"]
+- ["CSo11UIResponder", "UINavigationItem"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- !private ["CSo11UIResponder", "UITabBarController"]
+- !private ["CSo11UIResponder", "URL"]
+- !private ["CSo11UIResponder", "URLRequest"]
+- !private ["CSo11UIResponder", "URLSession"]
+- ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "WhoWith"]
+- !private ["CSo11UIResponder", "atan2"]
+- ["CSo11UIResponder", "closureReturn"]
+- !private ["CSo11UIResponder", "cos"]
+- ["CSo11UIResponder", "degreeToRadian"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "detailMeetup"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "equidistLat"]
+- ["CSo11UIResponder", "equidistLong"]
+- !private ["CSo11UIResponder", "finalLat"]
+- !private ["CSo11UIResponder", "finalLong"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lat"]
+- !private ["CSo11UIResponder", "locationObj"]
+- ["CSo11UIResponder", "long"]
+- !private ["CSo11UIResponder", "meetupid"]
+- !private ["CSo11UIResponder", "meetuptitle"]
+- ["CSo11UIResponder", "middlePoint"]
+- ["CSo11UIResponder", "navItem"]
+- ["CSo11UIResponder", "prepare"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "radianToDegree"]
+- ["CSo11UIResponder", "sendLocationsUpdate"]
+- !private ["CSo11UIResponder", "shared"]
+- !private ["CSo11UIResponder", "sin"]
+- !private ["CSo11UIResponder", "sqrt"]
+- ["CSo11UIResponder", "submitLocation"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "timeEnd"]
+- ["CSo11UIResponder", "titleLabel"]
+- !private ["CSo11UIResponder", "topViewController"]
+- !private ["CSo11UIResponder", "username"]
+- !private ["CSo11UIResponder", "viewControllers"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "CGFloat"]
+- !private ["PSo30UIResponderStandardEditActions", "Double"]
+- !private ["PSo30UIResponderStandardEditActions", "JSONSerialization"]
+- !private ["PSo30UIResponderStandardEditActions", "NumberFormatter"]
+- !private ["PSo30UIResponderStandardEditActions", "Time"]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplication"]
+- !private ["PSo30UIResponderStandardEditActions", "URL"]
+- !private ["PSo30UIResponderStandardEditActions", "URLRequest"]
+- !private ["PSo30UIResponderStandardEditActions", "URLSession"]
+- !private ["PSo30UIResponderStandardEditActions", "WhoWith"]
+- !private ["PSo30UIResponderStandardEditActions", "atan2"]
+- !private ["PSo30UIResponderStandardEditActions", "closureReturn"]
+- !private ["PSo30UIResponderStandardEditActions", "cos"]
+- !private ["PSo30UIResponderStandardEditActions", "degreeToRadian"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "detailMeetup"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "equidistLat"]
+- !private ["PSo30UIResponderStandardEditActions", "equidistLong"]
+- !private ["PSo30UIResponderStandardEditActions", "finalLat"]
+- !private ["PSo30UIResponderStandardEditActions", "finalLong"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "lat"]
+- !private ["PSo30UIResponderStandardEditActions", "locationObj"]
+- !private ["PSo30UIResponderStandardEditActions", "long"]
+- !private ["PSo30UIResponderStandardEditActions", "meetupid"]
+- !private ["PSo30UIResponderStandardEditActions", "meetuptitle"]
+- !private ["PSo30UIResponderStandardEditActions", "middlePoint"]
+- !private ["PSo30UIResponderStandardEditActions", "navItem"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "radianToDegree"]
+- !private ["PSo30UIResponderStandardEditActions", "sendLocationsUpdate"]
+- !private ["PSo30UIResponderStandardEditActions", "shared"]
+- !private ["PSo30UIResponderStandardEditActions", "sin"]
+- !private ["PSo30UIResponderStandardEditActions", "sqrt"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "timeEnd"]
+- !private ["PSo30UIResponderStandardEditActions", "titleLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "topViewController"]
+- !private ["PSo30UIResponderStandardEditActions", "username"]
+- !private ["PSo30UIResponderStandardEditActions", "viewControllers"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "CGFloat"]
+- !private ["PSo16UIStateRestoring", "Double"]
+- !private ["PSo16UIStateRestoring", "JSONSerialization"]
+- !private ["PSo16UIStateRestoring", "NumberFormatter"]
+- !private ["PSo16UIStateRestoring", "Time"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
+- !private ["PSo16UIStateRestoring", "URL"]
+- !private ["PSo16UIStateRestoring", "URLRequest"]
+- !private ["PSo16UIStateRestoring", "URLSession"]
+- !private ["PSo16UIStateRestoring", "WhoWith"]
+- !private ["PSo16UIStateRestoring", "atan2"]
+- !private ["PSo16UIStateRestoring", "closureReturn"]
+- !private ["PSo16UIStateRestoring", "cos"]
+- !private ["PSo16UIStateRestoring", "degreeToRadian"]
+- !private ["PSo16UIStateRestoring", "detailMeetup"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "equidistLat"]
+- !private ["PSo16UIStateRestoring", "equidistLong"]
+- !private ["PSo16UIStateRestoring", "finalLat"]
+- !private ["PSo16UIStateRestoring", "finalLong"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "lat"]
+- !private ["PSo16UIStateRestoring", "long"]
+- !private ["PSo16UIStateRestoring", "meetupid"]
+- !private ["PSo16UIStateRestoring", "meetuptitle"]
+- !private ["PSo16UIStateRestoring", "middlePoint"]
+- !private ["PSo16UIStateRestoring", "navItem"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "radianToDegree"]
+- !private ["PSo16UIStateRestoring", "sendLocationsUpdate"]
+- !private ["PSo16UIStateRestoring", "sin"]
+- !private ["PSo16UIStateRestoring", "sqrt"]
+- !private ["PSo16UIStateRestoring", "timeEnd"]
+- !private ["PSo16UIStateRestoring", "titleLabel"]
+- !private ["PSo16UIStateRestoring", "topViewController"]
+- !private ["PSo16UIStateRestoring", "viewControllers"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destination"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["CSo18UITabBarController", "viewControllers"]
+- !private ["PSo16UITabBarDelegate", "viewControllers"]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- !private ["PSo18UITraitEnvironment", "Double"]
+- !private ["PSo18UITraitEnvironment", "JSONSerialization"]
+- !private ["PSo18UITraitEnvironment", "NumberFormatter"]
+- !private ["PSo18UITraitEnvironment", "Time"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
+- !private ["PSo18UITraitEnvironment", "URL"]
+- !private ["PSo18UITraitEnvironment", "URLRequest"]
+- !private ["PSo18UITraitEnvironment", "URLSession"]
+- !private ["PSo18UITraitEnvironment", "WhoWith"]
+- !private ["PSo18UITraitEnvironment", "atan2"]
+- !private ["PSo18UITraitEnvironment", "closureReturn"]
+- !private ["PSo18UITraitEnvironment", "cos"]
+- !private ["PSo18UITraitEnvironment", "degreeToRadian"]
+- !private ["PSo18UITraitEnvironment", "detailMeetup"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "equidistLat"]
+- !private ["PSo18UITraitEnvironment", "equidistLong"]
+- !private ["PSo18UITraitEnvironment", "finalLat"]
+- !private ["PSo18UITraitEnvironment", "finalLong"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "lat"]
+- !private ["PSo18UITraitEnvironment", "long"]
+- !private ["PSo18UITraitEnvironment", "meetupid"]
+- !private ["PSo18UITraitEnvironment", "meetuptitle"]
+- !private ["PSo18UITraitEnvironment", "middlePoint"]
+- !private ["PSo18UITraitEnvironment", "navItem"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "radianToDegree"]
+- !private ["PSo18UITraitEnvironment", "sendLocationsUpdate"]
+- !private ["PSo18UITraitEnvironment", "sin"]
+- !private ["PSo18UITraitEnvironment", "sqrt"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "timeEnd"]
+- !private ["PSo18UITraitEnvironment", "titleLabel"]
+- !private ["PSo18UITraitEnvironment", "topViewController"]
+- !private ["PSo18UITraitEnvironment", "viewControllers"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "AppDelegate"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "CGFloat"]
+- !private ["CSo16UIViewController", "Double"]
+- !private ["CSo16UIViewController", "InviteePicksViewController"]
+- !private ["CSo16UIViewController", "JSONSerialization"]
+- ["CSo16UIViewController", "Meetup"]
+- !private ["CSo16UIViewController", "NumberFormatter"]
+- !private ["CSo16UIViewController", "SecondViewController"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "Time"]
+- !private ["CSo16UIViewController", "UIApplication"]
+- ["CSo16UIViewController", "UILabel"]
+- !private ["CSo16UIViewController", "UINavigationController"]
+- ["CSo16UIViewController", "UINavigationItem"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- !private ["CSo16UIViewController", "UITabBarController"]
+- !private ["CSo16UIViewController", "URL"]
+- !private ["CSo16UIViewController", "URLRequest"]
+- !private ["CSo16UIViewController", "URLSession"]
+- ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "WhoWith"]
+- !private ["CSo16UIViewController", "atan2"]
+- ["CSo16UIViewController", "closureReturn"]
+- !private ["CSo16UIViewController", "cos"]
+- ["CSo16UIViewController", "degreeToRadian"]
+- ["CSo16UIViewController", "detailMeetup"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "equidistLat"]
+- ["CSo16UIViewController", "equidistLong"]
+- !private ["CSo16UIViewController", "finalLat"]
+- !private ["CSo16UIViewController", "finalLong"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "lat"]
+- ["CSo16UIViewController", "long"]
+- !private ["CSo16UIViewController", "meetupid"]
+- !private ["CSo16UIViewController", "meetuptitle"]
+- ["CSo16UIViewController", "middlePoint"]
+- ["CSo16UIViewController", "navItem"]
+- ["CSo16UIViewController", "prepare"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "radianToDegree"]
+- ["CSo16UIViewController", "sendLocationsUpdate"]
+- !private ["CSo16UIViewController", "sin"]
+- !private ["CSo16UIViewController", "sqrt"]
+- ["CSo16UIViewController", "submitLocation"]
+- ["CSo16UIViewController", "timeEnd"]
+- ["CSo16UIViewController", "titleLabel"]
+- !private ["CSo16UIViewController", "topViewController"]
+- !private ["CSo16UIViewController", "viewControllers"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["V10Foundation3URL", "init"]
+- !private ["V10Foundation10URLRequest", "httpBody"]
+- !private ["V10Foundation10URLRequest", "httpMethod"]
+- !private ["V10Foundation10URLRequest", "init"]
+- !private ["CSo10URLSession", "dataTask"]
+- !private ["CSo10URLSession", "shared"]
+- !private ["CSo18URLSessionDataTask", "resume"]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps15_CVarArgAligned", "pi"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "pi"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "pi"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "pi"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "JSONSerialization"]
+- !private ["Ps9_Hashable", "NumberFormatter"]
+- !private ["Ps9_Hashable", "Time"]
+- !private ["Ps9_Hashable", "UIApplication"]
+- !private ["Ps9_Hashable", "URL"]
+- !private ["Ps9_Hashable", "URLRequest"]
+- !private ["Ps9_Hashable", "URLSession"]
+- !private ["Ps9_Hashable", "WhoWith"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "atan2"]
+- !private ["Ps9_Hashable", "closureReturn"]
+- !private ["Ps9_Hashable", "coordinate"]
+- !private ["Ps9_Hashable", "cos"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "dataTask"]
+- !private ["Ps9_Hashable", "degreeToRadian"]
+- !private ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "destination"]
+- !private ["Ps9_Hashable", "detailMeetup"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "equidistLat"]
+- !private ["Ps9_Hashable", "equidistLong"]
+- !private ["Ps9_Hashable", "finalLat"]
+- !private ["Ps9_Hashable", "finalLong"]
+- !private ["Ps9_Hashable", "httpBody"]
+- !private ["Ps9_Hashable", "httpMethod"]
+- !private ["Ps9_Hashable", "identifier"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "jsonObject"]
+- !private ["Ps9_Hashable", "lat"]
+- !private ["Ps9_Hashable", "locationObj"]
+- !private ["Ps9_Hashable", "long"]
+- !private ["Ps9_Hashable", "meetupid"]
+- !private ["Ps9_Hashable", "meetuptitle"]
+- !private ["Ps9_Hashable", "middlePoint"]
+- !private ["Ps9_Hashable", "navItem"]
+- !private ["Ps9_Hashable", "number"]
+- !private ["Ps9_Hashable", "pi"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "radianToDegree"]
+- !private ["Ps9_Hashable", "resume"]
+- !private ["Ps9_Hashable", "sendLocationsUpdate"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "sin"]
+- !private ["Ps9_Hashable", "sqrt"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "timeEnd"]
+- !private ["Ps9_Hashable", "title"]
+- !private ["Ps9_Hashable", "titleLabel"]
+- !private ["Ps9_Hashable", "topViewController"]
+- !private ["Ps9_Hashable", "username"]
+- !private ["Ps9_Hashable", "viewControllers"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "httpBody"]
+- !private ["Ps21_ObjectiveCBridgeable", "httpMethod"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "latitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "longitude"]
+- !private ["Ps21_ObjectiveCBridgeable", "pi"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pi"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "C9WhereAtV211AppDelegate"
+- !private "P12FacebookCore26AppEventParameterValueType"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "V12CoreGraphics7CGFloat"
+- !private "CSo10CLLocation"
+- !private "VSC22CLLocationCoordinate2D"
+- !private "PSo25CLLocationManagerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "CSo9Formatter"
+- "Ps8Hashable"
+- "C9WhereAtV229InviteeLocationViewController"
+- !private "C9WhereAtV226InviteePicksViewController"
+- !private "CSo17JSONSerialization"
+- !private "Ps25LosslessStringConvertible"
+- !private "V9WhereAtV26Meetup"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo15NumberFormatter"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- !private "CSo22UINavigationController"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "CSo18UITabBarController"
+- !private "PSo16UITabBarDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "V10Foundation3URL"
+- !private "V10Foundation10URLRequest"
+- !private "CSo10URLSession"
+- !private "CSo18URLSessionDataTask"
+- !private "CSo14URLSessionTask"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.apinotesc"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/FacebookLogin.swiftmodule/x86_64.swiftmodule"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/FacebookCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-Swift.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Headers/FacebookCore-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FacebookCore/FacebookCore.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-Swift.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Headers/FacebookLogin-umbrella.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/build/Debug-iphonesimulator/FacebookLogin/FacebookLogin.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/KatiaHajjar/Documents/WhereAtV2/Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Modules/module.modulemap"
+interface-hash: "12ff2a936e1972cc35a2772afda2a890"
